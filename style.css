@@ -1,0 +1,85 @@
+/*   
+Theme Name: BSS
+Theme URI: http://tooch.ru
+Description: Theme for BS Studios
+Author: Alex Z
+Author URI: http://vk.com/id112221379
+Version: 0.1
+*/
+
+
+
+html, body, .wrapper {
+	height: 100%;
+}
+
+body > .wrapper {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	background: url(img/background.png);
+	font-family: sans-serif;
+	color: #9f9e9e;
+}
+
+.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: -50px;
+	position: relative;
+}
+
+.logo{
+	margin:21px 32px 2px;
+}
+
+.rel {
+	position: relative;
+	padding: 10px;
+}
+
+form {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+
+nav {
+	width: 1000px;
+	background-color: white;
+	margin: 0 auto;
+	border-top:1px solid #CCCCCC;
+	color:#CCCCCC;
+}
+
+nav a {
+	text-decoration: none;
+	color: #9f9e9e;
+}
+
+li {
+	padding: 10px;
+	display: inline;
+}
+
+.homep, .single{
+	margin: 31px;
+	padding:5px;
+	padding-bottom: 100px;
+}
+
+.bottom {
+	box-sizing: border-box;
+	padding: 30px;
+	height: 100px;
+	background-color: #ebebeb;
+	border-top: 1px solid #9f9e9e;
+	margin-top: -100px;
+	position:absolute;
+	bottom:0;
+	width: 1000px;
+;
+}
